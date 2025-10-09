@@ -1,0 +1,140 @@
+\documentclass[12pt,a4paper]{report}
+
+% ------------------------------------------------------------
+% PACKAGES
+% ------------------------------------------------------------
+\usepackage[utf8]{inputenc}        % Encoding
+\usepackage[T1]{fontenc}           % Font encoding
+\usepackage{lmodern}               % Latin Modern font
+\usepackage[margin=1in]{geometry}  % Page margins
+\usepackage{setspace}              % Line spacing
+\usepackage{amsmath, amssymb, amsthm, mathtools}  % Math packages
+\usepackage{graphicx}              % For figures
+\usepackage{caption}               % Better captions
+\usepackage{subcaption}            % Subfigures
+\usepackage{booktabs}              % Nicer tables
+\usepackage{hyperref}              % Clickable links
+\usepackage{enumitem}              % Custom lists
+\usepackage{physics}               % For quantum notation, etc.
+\usepackage{biblatex}              % Bibliography management
+\addbibresource{references.bib}    % Reference file
+
+% ------------------------------------------------------------
+% CUSTOM SETTINGS
+% ------------------------------------------------------------
+\setstretch{1.2}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=teal,
+    urlcolor=magenta
+}
+
+% ------------------------------------------------------------
+% TITLE INFORMATION
+% ------------------------------------------------------------
+\title{%
+    \textbf{Sample Report Template}\\[1ex]
+    \large A Demonstration of a Professional LaTeX Report
+}
+\author{Your Name \\ Graduate Student, Department of Mathematics}
+\date{\today}
+
+% ------------------------------------------------------------
+% DOCUMENT BODY
+% ------------------------------------------------------------
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% ------------------------------------------------------------
+\chapter{Introduction}
+
+This report provides an example structure for writing technical or research reports in \LaTeX. It demonstrates common environments such as equations, figures, and references.
+
+\section{Motivation}
+Mathematical and computational reports often benefit from clear structure and consistent formatting. This template aims to provide both.
+
+\section{Background}
+You can cite references using \texttt{biblatex}, such as Einstein's work on relativity \cite{einstein1905}.
+
+% ------------------------------------------------------------
+\chapter{Mathematical Framework}
+
+\section{Equations}
+Equations can be displayed inline, e.g. \( E = mc^2 \), or in display mode:
+\begin{equation}
+    \nabla^2 \psi + k^2 \psi = 0
+    \label{eq:helmholtz}
+\end{equation}
+You can reference Equation~\ref{eq:helmholtz} later.
+
+\section{Definitions and Theorems}
+
+\begin{definition}
+A \emph{topological space} is a set \( X \) together with a collection \( \tau \) of subsets of \( X \) satisfying the topology axioms.
+\end{definition}
+
+\begin{theorem}
+Let \( f: X \to Y \) be continuous. If \( X \) is compact, then \( f(X) \) is compact.
+\end{theorem}
+
+\begin{proof}
+Let \( \{V_i\} \) be an open cover of \( f(X) \). Then \( \{f^{-1}(V_i)\} \) is an open cover of \( X \), which has a finite subcover by compactness.
+\end{proof}
+
+% ------------------------------------------------------------
+\chapter{Figures and Tables}
+
+\section{Figures}
+You can include figures as shown in Figure~\ref{fig:example}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{example-image-a}
+    \caption{Example figure with a caption.}
+    \label{fig:example}
+\end{figure}
+
+\section{Tables}
+\begin{table}[h!]
+    \centering
+    \caption{Sample data table}
+    \begin{tabular}{lcc}
+        \toprule
+        Variable & Mean & Std. Dev. \\
+        \midrule
+        $x_1$ & 1.23 & 0.12 \\
+        $x_2$ & 4.56 & 0.45 \\
+        $x_3$ & 7.89 & 0.78 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+% ------------------------------------------------------------
+\chapter{Discussion}
+
+Discuss your results, implications, and future work here. For example, in quantum computing contexts, one might describe how tensor product structures extend computational models.
+
+% ------------------------------------------------------------
+\chapter{Conclusion}
+
+Summarize the key findings or methods. You might include:
+\begin{itemize}[leftmargin=2em]
+    \item Theoretical insights or results.
+    \item Implementation details.
+    \item Open questions or future directions.
+\end{itemize}
+
+% ------------------------------------------------------------
+\printbibliography
+
+% ------------------------------------------------------------
+\appendix
+\chapter{Appendix A: Additional Material}
+
+Appendices can include code listings, proofs, or detailed data.
+
+\end{document}
