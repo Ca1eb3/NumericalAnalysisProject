@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber ProjectReport"] 1760027503 "ProjectReport.bcf" "ProjectReport.bbl" "ProjectReport" 1760027505 0
-  "ProjectReport.bcf" 1760027504 107768 8a031b1a00d168be489bdbe5cdfa64d5 "pdflatex"
+["biber ProjectReport"] 1761096958 "ProjectReport.bcf" "ProjectReport.bbl" "ProjectReport" 1761096960 0
+  "ProjectReport.bcf" 1761096960 107768 8a031b1a00d168be489bdbe5cdfa64d5 "pdflatex"
   "references.bib" 0 -1 0 ""
   (generated)
   "ProjectReport.bbl"
   "ProjectReport.blg"
   (rewritten before read)
-["pdflatex"] 1760027503 "/Users/paigeswanson/Documents/GitHub/NumericalAnalysisProject/Project1/ProjectReport.tex" "ProjectReport.pdf" "ProjectReport" 1760027505 2
+["pdflatex"] 1761096958 "/Users/paigeswanson/Documents/GitHub/NumericalAnalysisProject/Project1/ProjectReport.tex" "ProjectReport.pdf" "ProjectReport" 1761096960 2
   "/Users/paigeswanson/Documents/GitHub/NumericalAnalysisProject/Project1/ProjectReport.tex" 1760027487 4697 7fcaab1bb0af403e24432accc7dcafe2 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -150,12 +150,12 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1707158765 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1707158688 7883460 db4186aebdc288f5774f478c72a8894f ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "ProjectReport.aux" 1760027504 3060 9f6d6081dfb440c03378d97bb675b932 "pdflatex"
+  "ProjectReport.aux" 1761096960 3060 9f6d6081dfb440c03378d97bb675b932 "pdflatex"
   "ProjectReport.bbl" 0 -1 0 "biber ProjectReport"
-  "ProjectReport.out" 1760027504 1460 3d646c7d2e9257767d8de3e3f86a5237 "pdflatex"
-  "ProjectReport.run.xml" 1760027504 2368 cfb5703d49111dd052cd0f98a1aa5b4e "pdflatex"
+  "ProjectReport.out" 1761096960 1460 3d646c7d2e9257767d8de3e3f86a5237 "pdflatex"
+  "ProjectReport.run.xml" 1761096960 2368 cfb5703d49111dd052cd0f98a1aa5b4e "pdflatex"
   "ProjectReport.tex" 1760027487 4697 7fcaab1bb0af403e24432accc7dcafe2 ""
-  "ProjectReport.toc" 1760027504 867 04b3962878392ca8111aedcd248ff685 "pdflatex"
+  "ProjectReport.toc" 1761096960 867 04b3962878392ca8111aedcd248ff685 "pdflatex"
   (generated)
   "ProjectReport.aux"
   "ProjectReport.bcf"
